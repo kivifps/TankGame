@@ -147,8 +147,7 @@ namespace TankGame
                 for (int h = 0; h < height; h++)
                 {
                     _pixelColors[w, h] = 0;
-                    _pixels[w, h] = (char)0;
-                    _previousPixels[w, h] = (char)0;
+                    _pixels[w, h] = ' ';
                 }
         }
 

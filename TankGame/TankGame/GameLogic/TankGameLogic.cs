@@ -29,7 +29,6 @@ namespace TankGame.GameLogic
         }
         private void GotoNextLevel()
         {
-            Console.Clear();
             currLevel++;
             newGamePending = false;
             _showTextState.text = $"Level {currLevel}";
